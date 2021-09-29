@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 25vh;
+}
+.brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    color: white;
+    background-color: rgba(47, 130, 186, 0.385)
+    
+    
+}
+.link{
+    width: 200px;
+    width: 20%;
+    background-color: rgba(47, 130, 186, 0.385)
+}
+.brand h1{
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    background-color:  rgba(47, 130, 186, 0.385)
+    
+}
+.brand p{
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: rgba(47, 130, 186, 0.385)
+}
+.but{
+    width: 80%;
+    height: 30%;
+    margin-top: 40px;
+    margin-right: 20px;
+    color: white;
+    background-color: rgb(245, 152, 203);
+}
+.container{
+    margin: 50px 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+img{
+    height: 300px;
+    width: 250px;
+    margin-right: 100px;
+}
+.name{
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.email{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
